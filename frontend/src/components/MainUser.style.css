@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #1976D2;
+    color: white;
+  }
+
+  .addBtn{
+  padding:0.3em 1.2em;
+  margin:5em 0.3em 0.3em 0.5em;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight: bold;
+  color:#FFFFFF;
+  background-color:#1976D2;
+  text-align:center;
+  transition: all 0.2s;
+}
+.addBtn:hover{
+  background-color:#1029a8;
+}
